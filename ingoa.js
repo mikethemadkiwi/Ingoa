@@ -1,4 +1,3 @@
-const root = GetResourcePath(GetCurrentResourceName());
 on('playerConnecting', (name, setKickReason, deferrals) => {
     deferrals.defer()
     let ingoa = name.split('').filter(function (x) {
